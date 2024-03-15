@@ -7,7 +7,7 @@ uri = "http://127.0.0.1:6001/"
 mlflow.set_tracking_uri(uri=uri)
 
 # TODO: Provide model path/url
-logged_model = ___________________
+logged_model = "runs:/172cfe04e5724a1daaf3299f19080634/iris_model"
 
 # Load model as a PyFuncModel.
 loaded_model = mlflow.sklearn.load_model(logged_model)
